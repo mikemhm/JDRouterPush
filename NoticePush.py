@@ -27,7 +27,7 @@ def push_plus(title, content):
     if not GlobalVariable.PUSHPLUS:
         print("pushplus推送的PUSHPLUS未设置!!")
         return
-    push_plus_url = "http://www.pushplus.plus/send"
+    push_plus_url = "http://pushplus.hxtrip.com/send"
     params = {
         "token": GlobalVariable.PUSHPLUS,
         "title": title,
